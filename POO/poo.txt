@@ -27,3 +27,98 @@ Herencia
 Polimorfismo
 
  
+ Diagramas de ModeladoDiagramas de Modelado
+ OMT: Object Modeling Techniques. Es una metodología para el análisis orientado a objetos. 1991
+
+UML: Unified Modeling Language o Lenguaje de Modelado Unificado. Tomó las bases y técnicas de OMT unificándolas. Tenemos más opciones de diagramas como lo son Clases, Casos de Uso, Objetos, Actividades, Iteración, Estados, Implementación. 1997
+
+Qué es UML
+Las clases se representan así:
+En la parte superior se colocan los atributos o propiedades, y debajo las operaciones de la clase. Notarás que el primer caracter con el que empiezan es un símbolo. Este denotará la visibilidad del atributo o método, esto es un término que tiene que ver con Encapsulamiento y veremos más adelante a detalle.
+
+Estos son los niveles de visibilidad que puedes tener:
+
+- private
++ public
+# protected
+~ default
+
+Una forma de representar las relaciones que tendrá un elemento con otro es a través de las flechas en UML, y aquí tenemos varios tipos, estos son los más comunes:
+Asociacion
+Herencia
+Agregacion
+Composicion
+
+
+
+
+
+Objetos
+Los Objetos son aquellos que tienen propiedades y comportamientos, también serán sustantivos.
+
+Pueden ser Físicos o Conceptuales
+Las Propiedades también pueden llamarse atributos y estos también serán sustantivos. Algunos atributos o propiedades son nombre, tamaño, forma, estado, etc. Son todas las características del objeto.
+
+Los Comportamientos serán todas las operaciones que el objeto puede hacer, suelen ser verbos o sustantivos y verbo. Algunos ejemplos pueden ser que el usuario pueda hacer login y logout.
+
+
+
+
+
+Abstracción y Clases
+Una Clase es el modelo por el cual nuestros objetos se van a construir y nos van a permitir generar más objetos.
+
+Analizamos Objetos para crear Clases. Las Clases son los modelos sobres los cuales construiremos nuestros objetos.
+
+Abstracción es cuando separamos los datos de un objeto para generar un molde.
+
+
+
+
+Modularidad
+La modularidad va muy relacionada con las clases y es un principio de la Programación Orientado a Objetos y va de la mano con el Diseño Modular que significa dividir un sistema en partes pequeñas y estas serán nuestros módulos pudiendo funcionar de manera independiente.
+
+La modularidad de nuestro código nos va a permitir
+
+Reutilizar
+Evitar colapsos
+Hacer nuestro código más mantenible
+Legibilidad
+Resolución rápida de problemas
+Una buena práctica es separando las clases en archivos diferentes.
+
+
+
+
+
+¿Qué es la herencia?
+Don’t repeat yourself es una filosofía que promueve la reducción de duplicación en programación, esto nos va a inculcar que no tengamos líneas de código duplicadas.
+
+Toda pieza de información nunca debería ser duplicada debido a que incrementa la dificultad en los cambios y evolución
+
+La herencia nos permite crear nuevas clases a partir de otras, se basa en modelos y conceptos de la vida real. También tenemos una jerarquía de padre e hijo.
+
+
+
+Objetos, método constructor y su sintaxis en código
+Los objetos nos ayudan a crear instancia de una clase, el objeto es el resultado de lo que modelamos, de los parámetros declarados y usaremos los objetos para que nuestras clases cobren vida.
+
+Los métodos constructores dan un estado inicial al objeto y podemos añadirle algunos datos al objeto mediante estos métodos. Los atributos o elementos que pasemos a través del constructor serán los datos mínimos que necesita el objeto para que pueda vivir.
+
+
+
+Encapsulamiento
+Public: Todas las Clases.
+Protected: En la misma Clase, paquetes, subclases.
+Default: En la misma Clase y paquetes internos.
+Private: Solo en la misma Clase
+
+
+
+
+
+
+Polimorfismos
+Polimorfismo: Muchas formas. Poli = muchas, morfismo = formas. NO es Poliformismo
+
+Es construir métodos con el mismo nombre pero con comportamiento diferente
