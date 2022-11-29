@@ -145,6 +145,10 @@ HERENCIA
 Nos permite crear clases madre o super Prototipos para crear nuevos prototipos hijos apartir de este prototipo madre.
 
 
+POLIMORFISMO 
+Anular o modificar el comportamientos de los metodos y 0 atributos heredados de prototipos madre.
+
+
 
 
 
