@@ -122,3 +122,31 @@ Polimorfismos
 Polimorfismo: Muchas formas. Poli = muchas, morfismo = formas. NO es Poliformismo
 
 Es construir métodos con el mismo nombre pero con comportamiento diferente
+
+
+
+
+
+
+
+4 PILARES FUNDAMENTALES DE LA POO
+
+ABSTRACCION
+Consiste en abstraer los datos de un objeto para crear su clase o prototipo.
+Al crear las instancias de ese prototipo o clase para ahorrarnos mucho trabajo en el codigo estamos hablando de abstraccion.
+
+ENCAPSULAMIENTO
+Consiste en encapsular, proteger o guardar o limitar el acceso de ciertos atributos y propiedades en nuestros prototipos y objetos.
+No se puede esconder metodos y atributos ya que los atributos o propiedades privadas de los prototipos de JS no existen, todo en JS es publico.
+No permitir la alteracion de metodos y atributos.
+Formas de encapsular: Getters y setters(Namespaces, Object.defineProperties); Modulos de ES6.
+
+HERENCIA
+Nos permite crear clases madre o super Prototipos para crear nuevos prototipos hijos apartir de este prototipo madre.
+
+
+
+
+
+
+
